@@ -1,11 +1,11 @@
-let num=13;
+let number=13;
 let factor=0;
-for(let i=0;j<=num;i++){
+for(let i=0;i<=num;i++){
 if(num%i==0){
 factor++;
 }
 }
 if(factor==1){
-console.log("prime no");
+console.log(i,"is a prime no");
 else{
-consle.log(Not prime no");
+consle.log(i,"Not prime no");
